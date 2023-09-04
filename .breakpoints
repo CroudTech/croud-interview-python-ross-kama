@@ -1,0 +1,18 @@
+{
+  "files": {
+    "lib/challenges/hello_world/hello_world.py": [
+      {
+        "id": "d0bed401-538a-4035-9a73-c196ed67694a",
+        "line": 13,
+        "version": 1,
+        "index": 213
+      },
+      {
+        "id": "7efeb0e7-4f02-463b-b9bd-9630d88a200b",
+        "line": 16,
+        "version": 1,
+        "index": 330
+      }
+    ]
+  }
+}

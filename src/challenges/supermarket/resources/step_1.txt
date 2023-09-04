@@ -1,0 +1,30 @@
+Congratulations! 
+Our system is working well, but we are facing stiff competition.
+To address this we have decided to introduce some offers to attract more custommers
+
+Checkout our ne exciting offers three A's will only cost you 130.
+
+Our price table and offers: 
++------+-------+----------------+
+| Item | Price | Special offers |
++------+-------+----------------+
+| A    | 50    | 3A for 130     |
+| B    | 30    | 2B for 45      |
+| C    | 20    |                |
+| D    | 15    |                |
++------+-------+----------------+
+
+
+Note:
+- Offers must be applied untill they can no longer be applied
+
+
+In order to complete the round you must:
+1.
+  satisfy the changes to the table
+2.
+  When you are ready to move on to the next challenge:
+  Uncomment and execute:
+  tests/test_challenge_passed/supermarket/test_01.py
+
+

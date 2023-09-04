@@ -1,0 +1,34 @@
+Popularity is growing! and so should the offers  :D
+It's time to think about growth.
+Our marketing teams wants to experiment with new offer types and we should do our best to support them.
+
+We are going to sell a new item E.
+Normally E costs 40, but if you buy 2 of Es you will get B free.
+How cool is that ? Multi-priced items also seemed to work well so we should have more of these.
+
+Our price table and offers: 
++------+-------+------------------------+
+| Item | Price | Special offers         |
++------+-------+------------------------+
+| A    | 50    | 3A for 130, 5A for 200 |
+| B    | 30    | 2B for 45              |
+| C    | 20    |                        |
+| D    | 15    |                        |
+| E    | 40    | 2E get one B free      |
++------+-------+------------------------+
+
+We have identified that customers may get different discount values
+depending on the order in which offers are applied in on their basket.
+
+To address this we have decided to introduce a new policy:
+- Always maximize the discount value for the customer
+
+
+In order to complete the round you must:
+1.
+  satisfy the changes to the table
+2.
+  When you are ready to move on to the next challenge:
+  Uncomment and execute:
+  tests/test_challenge_passed/supermarket/test_02.py
+

@@ -81,8 +81,10 @@ validate-system-packages:
 
 dir_setup: .env
 
+# @audit-info: Added poetry to PATH
 setup_poetry:
-	curl -sSL https://install.python-poetry.org | python3 -
+	export PATH="$${PATH}:~/.local/bin" ; \
+	curl -sSL https://install.python-poetry.org | python3 - ; \
 	poetry install
 setup:
 	@echo "$(CYAN)Setting up environment$(COFF)"
